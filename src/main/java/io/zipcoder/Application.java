@@ -15,9 +15,9 @@ public class Application {
         int n = sc.nextInt(); // Scans the next token of the input as an int.
 
 
-        ArrayList<Pet> list = new ArrayList<Pet>();
+        ArrayList<Pet> list = new ArrayList<>();
 
-        //Sorting list with pets by "compareTo method, witch goes with Comparable<Pet> interface
+        //Sorting list with pets by "compareTo method, which goes with Comparable<Pet> interface
         //natural order
         sort(list);
 
